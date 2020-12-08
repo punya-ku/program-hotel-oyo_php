@@ -1,0 +1,184 @@
+/* CSS Document */
+
+*{ margin:0; padding:0; }
+
+body{
+		background-color: #000000;
+}
+
+
+.login{
+		margin:80px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		color: #663300;
+}
+input[type=text]{
+		padding:10px;
+		margin:auto;
+}
+input[type=password]{
+		padding:10px;
+		margin:auto;
+}
+input[type=submit]{
+		width:200px;
+		height:30px;
+		margin:0 auto;
+		background-color:#999999;
+}
+
+input[type=radio]{
+		margin:10px;
+}
+input[type=file]{
+		padding:10px;
+		margin:auto;
+}
+select{
+		padding:5px;
+		margin:5px;
+		width:200px;
+}
+
+#wrapper{
+		width: 1435px;
+		margin: 0 auto;
+		overflow:hidden;
+}
+#header{
+		background-color:#000000;
+		height:80px;
+		width:100%;
+		margin-top:5px;
+		overflow:hidden;
+}
+#header img{ 
+		width:350px; 
+		height:60px; 
+}
+
+#menu{
+		margin-top:1px;
+		list-style:none;
+}
+#menu li{
+		float:left;
+		padding:0 25px;
+		border-right:1px solid #333333;
+}
+#menu li a{
+		color:#FFFFFF;
+		text-decoration:none;
+}
+
+#halaman{	
+		background-image: url(img/putihkayu.jpg);
+		padding:5px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:1220px;
+		float:left;
+}
+#halaman img{
+		text-align:center;
+		margin:3px;
+		margin-top:10px;
+		width:370px;
+		height:400px;
+}
+#hall{
+		background-image: url(img/putihkayu.jpg);
+		padding:5px;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:1435px;
+}
+
+#hall- img{
+		margin:1px;
+		border-style:solid;
+		border-color: #660000;
+		width:200px; 
+		height:250px;
+		padding:5px;
+}
+
+#hall-isi{
+		text-align:center;
+}
+#hall-isi img{
+		margin:5px;
+		margin-top:10px;
+		width:420px;
+		height:400px;
+}
+
+#isi{
+		text-align:center;
+}
+#isi table{
+		text-align:left;
+}
+#isi p{
+		font-size:16px;
+		margin-bottom:8px;
+}
+
+#sidebar{
+		text-align:center;
+		height:100%;
+		width:190px;
+		float:right;
+		padding:1px;
+		margin-top:5px;
+}
+#sidebar img{
+		margin:1px;
+		border-style:solid;
+		border-color: #660000;
+		width:100px; 
+		height:120px; 
+}
+#sidebar label{
+		color:	#FFFFFF;
+		text-decoration:none;
+}
+
+#bar{
+		float:left;
+		margin-top:1px;
+		margin-left:1px;
+		list-style:none;
+}
+#bar li{
+		width:180px;
+		float:bottom;
+		padding:5px 1px;
+		margin-top:5px;
+		margin-bottom:1px;
+		text-align:center;
+		border:1px solid #333333;
+		background-color:#FFFFFF;	
+}
+#bar li a{
+		color:	#000000;
+		text-decoration:none;
+}
+
+#footer{ 
+		clear:both;
+		margin:5px auto;
+		text-align:center;
+		font-size:10px;
+		background-color:#000000;
+		padding:5px;
+		color:#FFFFFF;
+}
+
+input[type=button]{
+		width:200px;
+		height:30px;
+		margin:0 auto;
+		background-color:#999999;
+}
